@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: "Outfit", system-ui, -apple-system, sans-serif;
+}
